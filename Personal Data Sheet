@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal Data Sheet</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        td, th {
+            border: 1px solid #777;
+            padding: 4px;
+            height: 10px;
+        }
+
+        th {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .section {
+            text-align: center;
+            font-weight: bold;
+            padding: 4px;
+        }
+
+        .label {
+            font-weight: bold;
+			text-align: left;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .small {
+            font-size: 10px;
+        }
+
+        .signature {
+            height: 35px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TITLE -->
+    <h1 align="center">PERSONAL DATA SHEET</h1>
+    <h4 align="center">PERSONNEL INFORMATION FORM</h4>
+
+    <!-- I. PERSONAL INFORMATION -->
+
+    <table>
+
+        <tr>
+            <td colspan="30" class="section">I. PERSONAL INFORMATION </td>
+        </tr>
+
+        <tr>
+            <td colspan="5" rowspan="2" class="label">NAME</td>
+            <td colspan="4" class="label">LAST NAME</td>
+            <td colspan="6" class="label">FIRST NAME</td>
+            <td colspan="8" class="label">MIDDLE NAME</td>
+            <td colspan="3" rowspan="2" class="label">EXTENSION</td>
+            <td colspan="4" rowspan="2" class="label">PHOTO</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">OROZCO</td>
+            <td colspan="6">LESLIE KAYE</td>
+            <td colspan="8">CORTEZO</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">DATE OF BIRTH</td>
+            <td colspan="6">OCTOBER 6, 2004</td>
+            <td colspan="4" class="label">PLACE OF BIRTH</td>
+            <td colspan="8">PASIG CITY</td>
+            <td colspan="3" class="label">SEX</td>
+            <td colspan="4">FEMALE</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">CIVIL STATUS</td>
+            <td colspan="6">○ Single  ○ Married</td>
+            <td colspan="4" class="label">CITIZENSHIP</td>
+            <td colspan="8">FILIPINO</td>
+            <td colspan="3" class="label">BLOOD TYPE</td>
+            <td colspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">HEIGHT</td>
+            <td colspan="4">150 cm</td>
+            <td colspan="2" class="label">WEIGHT</td>
+            <td colspan="4">42 kg</td>
+            <td colspan="4" class="label">RELIGION</td>
+            <td colspan="4">CHRISTIAN</td>
+
+            <td colspan="3" class="label">AGE</td>
+            <td colspan="4">22</td>
+        </tr>
+
+
+        <!-- IDENTIFICATION NUMBERS-->
+
+        <tr>
+            <td colspan="30" class="section">
+                IDENTIFICATION NUMBERS
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2" class="label">GOVERNMENT ID</th>
+            <th colspan="6" class="label">ID TYPE</th>
+            <th colspan="8" class="label">ID NUMBER</th>
+            <th colspan="4" class="label">DATE ISSUED</th>
+            <th colspan="7" class="label">PLACE ISSUED</th>
+        </tr>
+
+        <tr>
+            <td colspan="6">PhilSys ID</td>
+            <td colspan="8">9469-3526-5389-6729</td>
+            <td colspan="4">2024</td>
+            <td colspan="7">TERESA, RIZAL</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2" class="label">OTHER ID</th>
+            <td colspan="6">SSS</td>
+            <td colspan="8">35-2777298-6</td>
+            <td colspan="4">2023</td>
+            <td colspan="7">TERESA, RIZAL</td>
+        </tr>
+
+        <tr>
+            <td colspan="6">TIN</td>
+            <td colspan="8">----</td>
+            <td colspan="4">----</td>
+            <td colspan="7">----</td>
+        </tr>
+
+        <!-- ADDRESS INFORMATION-->
+
+        <tr>
+            <td colspan="30" class="section">
+                ADDRESS INFORMATION
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">TYPE</th>
+            <th colspan="6">HOUSE / LOT</th>
+            <th colspan="8">STREET</th>
+            <th colspan="4">BARANGAY</th>
+            <th colspan="7">CITY / MUNICIPALITY</th>
+        </tr>
+
+        <tr>
+            <th colspan="6">NO.</th>
+            <th colspan="8">NAME</th>
+            <th colspan="4">NAME</th>
+            <th colspan="7">NAME</th>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">RESIDENTIAL</td>
+            <td colspan="6">B56 L28</td>
+            <td colspan="8">CARISSA HOMES EAST 1</td>
+            <td colspan="4">PRINZA</td>
+            <td colspan="7">TERESA</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">PERMANENT</td>
+            <td colspan="6">B56 L28</td>
+            <td colspan="8">CARISSA HOMES EAST 1</td>
+            <td colspan="4">PRINZA</td>
+            <td colspan="7">TERESA</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">PROVINCE</td>
+            <td colspan="10">RIZAL</td>
+            <td colspan="4"><b>ZIP CODE</b></td>
+            <td colspan="11">1880</td>
+        </tr>
+
+
+        <!-- CONTACT INFORMATION-->
+
+        <tr>
+            <td colspan="30" class="section">CONTACT INFORMATION</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" rowspan="2" class="label">CONTACT</td>
+            <td colspan="6" class="label">TELEPHONE</td>
+            <td colspan="8" class="label">MOBILE</td>
+            <td colspan="11" class="label">EMAIL ADDRESS</td>
+        </tr>
+
+        <tr>
+            <td colspan="6">----</td>
+            <td colspan="8">09489520115</td>
+            <td colspan="11">kayeorozco10@email.com</td>
+        </tr>
+
+
+        <!-- II. FAMILY BACKGROUND -->
+
+        <tr>
+            <td colspan="30" class="section">II. FAMILY BACKGROUND</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">RELATIONSHIP</th>
+            <th colspan="10">NAME</th>
+            <th colspan="4" rowspan="2">DATE OF BIRTH</th>
+            <th colspan="7">OCCUPATION</th>
+            <th colspan="4" rowspan="2">CONTACT NO.</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">LAST NAME</th>
+            <th colspan="2">FIRST NAME</th>
+            <th colspan="4">MIDDLE NAME</th>
+            <th colspan="4">POSITION</th>
+            <th colspan="3">COMPANY</th>
+        </tr>
+
+        <tr>
+            <td colspan="5" rowspan="2" class="label">PARENT</td>
+            <td colspan="4">OROZCO</td>
+            <td colspan="2">ARNOLD</td>
+            <td colspan="4">MATACOT</td>
+            <td colspan="4">08/25/1973</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">OROZCO</td>
+            <td colspan="2">JENEVIVE</td>
+            <td colspan="4">CORTEZO</td>
+            <td colspan="4">10/04/1976</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" rowspan="2" class="label">SIBLING</td>
+            <td colspan="4">OROZCO</td>
+            <td colspan="2" colspan="5">LEAH KIM</td>
+            <td colspan="4">CORTEZO</td>
+            <td colspan="4">03/05/1997</td>
+            <td colspan="4">TEACHER</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">OROZCO</td>
+            <td colspan="2">LIEZEL KATE</td>
+            <td colspan="4">CORTEZO</td>
+            <td colspan="4">09/19/2000</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+
+        <!-- III. EDUCATIONAL BACKGROUND -->
+
+        <tr>
+            <td colspan="30" class="section">III. EDUCATIONAL BACKGROUND</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">LEVEL</th>
+            <th colspan="10">SCHOOL INFORMATION</th>
+            <th colspan="4" rowspan="2">DEGREE / COURSE</th>
+            <th colspan="7">YEAR</th>
+            <th colspan="4" rowspan="2">HONORS</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">NAME</th>
+            <th colspan="6">ADDRESS</th>
+            <th colspan="4">FROM</th>
+            <th colspan="3">TO</th>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">ELEMENTARY</td>
+            <td colspan="4">Mines Elementary School</td>
+            <td colspan="6">Quezon City</td>
+            <td colspan="4">Elementary</td>
+            <td colspan="4">2006</td>
+            <td colspan="3">2012</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">SECONDARY</td>
+            <td colspan="4">ERNESTO RONDON HIGH SCHOOL</td>
+            <td colspan="6">QUEZON CITY</td>
+            <td colspan="4">----</td>
+            <td colspan="4">2012</td>
+            <td colspan="3">2016</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">COLLEGE</td>
+            <td colspan="4">EAST SYSTEMS COLLEGES OF RIZAL</td>
+            <td colspan="6">RIZAL</td>
+            <td colspan="4">BS Information Technology</td>
+            <td colspan="4">2024</td>
+            <td colspan="3">2028</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="label">GRADUATE</td>
+            <td colspan="4">---</td>
+            <td colspan="6">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <!-- IV. ELIGIBILITY / LICENSE -->
+
+        <tr>
+            <td colspan="30" class="section">IV. ELIGIBILITY / LICENSE</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">TYPE</th>
+			<th colspan="10">ELIGIBILITY/LICENSE</th>
+			<th colspan="4" rowspan="2">RATING</th>
+			<th colspan="7">DATE</th>
+            <th colspan="4" rowspan="2">VALID UNTIL</th>
+        </tr>
+		<tr>
+            <th colspan="4">NAME</th>
+            <th colspan="2">NUMBER</th>
+            <th colspan="4">ISSUING AGENCY</th>
+            <th colspan="4">ISSUED</th>
+            <th colspan="3">EXPIRATION</th>
+		</tr>
+        <tr>
+            <td colspan="5">ELIGIBILITY</td>
+            <td colspan="4">----</td>
+            <td colspan="2">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">LICENSE</td>
+            <td colspan="4">----</td>
+            <td colspan="2">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <!-- V. WORK EXPERIENCE -->
+
+        <tr>
+            <td colspan="30" class="section">V. WORK EXPERIENCE</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">POSITION</th>
+            <th colspan="6">EMPLOYER</th>
+            <th colspan="8">PERIOD OF EMPLOYMENT</th>
+            <th colspan="4" rowspan="2">MONTHLY SALARY</th>
+            <th colspan="3" rowspan="2">STATUS</th>
+            <th colspan="4" rowspan="2">REASON FOR LEAVING</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">COMPANY</th>
+            <th colspan="2">ADDRESS</th>
+            <th colspan="4">FROM</th>
+            <th colspan="4">TO</th>
+        </tr>
+
+        <tr>
+            <td colspan="5">----</td>
+            <td colspan="4">----</td>
+            <td colspan="2">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">----</td>
+            <td colspan="4">----</td>
+            <td colspan="2">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">----</td>
+            <td colspan="4">----</td>
+            <td colspan="2">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="4">----</td>
+            <td colspan="3">----</td>
+            <td colspan="4">----</td>
+        </tr>
+
+        <!-- VI. TRAININGS/SEMINARS -->
+
+        <tr>
+            <td colspan="30" class="section">VI. TRAININGS / SEMINARS</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">TITLE OF TRAINING</th>
+            <th colspan="6">DATE</th>
+            <th colspan="4" rowspan="2">NUMBER OF HOURS</th>
+            <th colspan="8">CONDUCTED BY</th>
+            <th colspan="7">VENUE</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">FROM</th>
+            <th colspan="2">TO</th>
+            <th colspan="4">ORGANIZATION</th>
+            <th colspan="4">TRAINER</th>
+            <th colspan="3">LOCATION</th>
+            <th colspan="4">MODE</th>
+        </tr>
+
+        <tr>
+            <td colspan="5">---</td>
+            <td colspan="4">---</td>
+            <td colspan="2">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">----</td>
+            <td colspan="4">---</td>
+            <td colspan="2">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <!-- VII. REFERENCES -->
+
+        <tr>
+            <td colspan="30" class="section">VII. REFERENCES</td>
+        </tr>
+
+        <tr>
+            <th colspan="5" rowspan="2">NO.</th>
+            <th colspan="10">REFERENCE NAME</th>
+            <th colspan="8">CONTACT INFORMATION</th>
+            <th colspan="7">ADDRESS</th>
+        </tr>
+
+        <tr>
+            <th colspan="4">LAST NAME</th>
+            <th colspan="2">FIRST NAME</th>
+            <th colspan="4">POSITION</th>
+            <th colspan="4">TELEPHONE</th>
+            <th colspan="4">MOBILE</th>
+            <th colspan="3">STREET</th>
+            <th colspan="4">CITY</th>
+        </tr>
+
+        <tr>
+            <td colspan="5">1</td>
+            <td colspan="4">---</td>
+            <td colspan="2">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">2</td>
+            <td colspan="4">---</td>
+            <td colspan="2">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">3</td>
+            <td colspan="4">---</td>
+            <td colspan="2">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="4">---</td>
+            <td colspan="3">---</td>
+            <td colspan="4">---</td>
+        </tr>
+
+        <!-- VIII. DECLARATION -->
+
+        <tr>
+            <td colspan="30" class="section">VIII. DECLARATION</td>
+        </tr>
+
+        <tr>
+            <td colspan="30">
+                I hereby certify that all information provided in this Personal Data Sheet
+                is true, complete, and correct to the best of my knowledge and belief.
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="15" rowspan="2"class="signature">
+                _______________________________<br>
+                SIGNATURE OVER PRINTED NAME
+            </td>
+
+            <td colspan="15">
+                DATE SIGNED
+            </td>
+        </tr>
+		<tr>
+		    <td colspan="15" class="signature">
+                _______________________________<br>
+                DATE
+		</tr>
+
+    </table>
+
+</body>
+</html>
